@@ -6,6 +6,8 @@
 #include "Dict.h"
 #include "TableEntry.h"
 
+using namespace std;
+
 template <typename V>
 class HashTable: public Dict<V> {
 
